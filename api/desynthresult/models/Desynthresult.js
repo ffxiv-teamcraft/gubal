@@ -10,7 +10,10 @@ module.exports = {
   // Before saving a value.
   // Fired before an `insert` or `update` query.
   beforeSave: async (model) => {
-    return await userIdValidator(model.userId);
+    const userIsValid = await userIdValidator(model.userId);
+    if (!userIsValid) {
+      throw new Error('Invalid user id');
+    }
   },
 
   // After saving a value.
