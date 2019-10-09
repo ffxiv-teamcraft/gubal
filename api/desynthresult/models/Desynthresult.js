@@ -1,5 +1,7 @@
 'use strict';
 
+const userIdValidator = require('../../../core/validators/UserIdValidator');
+
 /**
  * Lifecycle callbacks for the `Desynthresult` model.
  */
@@ -7,7 +9,9 @@
 module.exports = {
   // Before saving a value.
   // Fired before an `insert` or `update` query.
-  // beforeSave: async (model) => {},
+  beforeSave: async (model) => {
+    return await userIdValidator(model.userId);
+  },
 
   // After saving a value.
   // Fired after an `insert` or `update` query.

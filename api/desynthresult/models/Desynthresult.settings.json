@@ -9,6 +9,11 @@
     "timestamps": true
   },
   "attributes": {
+    "userId": {
+      "type": "string",
+      "required": true,
+      "private": true
+    },
     "itemId": {
       "type": "integer",
       "min": 1,
