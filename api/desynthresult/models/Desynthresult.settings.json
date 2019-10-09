@@ -1,0 +1,23 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "desynthresult",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "itemId": {
+      "type": "integer",
+      "min": 1,
+      "required": true
+    },
+    "resultItemId": {
+      "type": "integer",
+      "min": 1,
+      "required": true
+    }
+  }
+}

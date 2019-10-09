@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/desynthresults",
+      "handler": "Desynthresult.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/desynthresults/count",
+      "handler": "Desynthresult.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/desynthresults/:id",
+      "handler": "Desynthresult.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/desynthresults",
+      "handler": "Desynthresult.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/desynthresults/:id",
+      "handler": "Desynthresult.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/desynthresults/:id",
+      "handler": "Desynthresult.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

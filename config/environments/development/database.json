@@ -1,0 +1,19 @@
+{
+  "defaultConnection": "default",
+  "connections": {
+    "default": {
+      "connector": "strapi-hook-mongoose",
+      "settings": {
+        "database": "${process.env.DATABASE}",
+        "host": "127.0.0.1",
+        "srv": false,
+        "port": 27017,
+        "username": "${process.env.DATABASE_USERNAME}",
+        "password": "${process.env.DATABASE_PASSWORD}"
+      },
+      "options": {
+        "authenticationDatabase": "${process.env.AUTH_DATABASE}"
+      }
+    }
+  }
+}

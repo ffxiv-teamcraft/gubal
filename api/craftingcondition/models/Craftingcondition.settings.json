@@ -1,0 +1,34 @@
+{
+  "connection": "default",
+  "collectionName": "craftingcondition",
+  "info": {
+    "name": "craftingcondition",
+    "description": ""
+  },
+  "options": {
+    "timestamps": [
+      "createdAt",
+      "updatedAt"
+    ]
+  },
+  "attributes": {
+    "state": {
+      "enum": [
+        "GOOD",
+        "NORMAL",
+        "EXCELLENT"
+      ],
+      "type": "enumeration",
+      "required": true
+    },
+    "rlvl": {
+      "type": "integer",
+      "min": 1,
+      "required": true
+    },
+    "user": {
+      "model": "user",
+      "plugin": "users-permissions"
+    }
+  }
+}
