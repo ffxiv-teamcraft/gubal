@@ -29,7 +29,9 @@
       "path": "/desynthresults",
       "handler": "Desynthresult.create",
       "config": {
-        "policies": []
+        "policies": [
+          "global.isProvidingValidUserId"
+        ]
       }
     },
     {
