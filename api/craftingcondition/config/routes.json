@@ -29,7 +29,9 @@
       "path": "/craftingconditions",
       "handler": "Craftingcondition.create",
       "config": {
-        "policies": []
+        "policies": [
+          "global.isProvidingValidUserId"
+        ]
       }
     },
     {
