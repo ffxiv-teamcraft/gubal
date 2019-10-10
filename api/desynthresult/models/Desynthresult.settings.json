@@ -1,12 +1,15 @@
 {
   "connection": "default",
-  "collectionName": "",
+  "collectionName": "desynthresult",
   "info": {
     "name": "desynthresult",
     "description": ""
   },
   "options": {
-    "timestamps": true
+    "timestamps": [
+      "createdAt",
+      "updatedAt"
+    ]
   },
   "attributes": {
     "userId": {
@@ -23,6 +26,12 @@
       "type": "integer",
       "min": 1,
       "required": true
+    },
+    "itemHQ": {
+      "type": "boolean"
+    },
+    "resultItemHQ": {
+      "type": "boolean"
     }
   }
 }
