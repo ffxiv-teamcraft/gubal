@@ -17,6 +17,9 @@
     },
     "clvl": {
       "type": "integer"
+    },
+    "specialist": {
+      "type": "boolean"
     }
   }
 }

@@ -511,6 +511,10 @@
       "Quicksynthresult": {
         "required": [
           "id",
+          "userId",
+          "success",
+          "HQ",
+          "rlvl",
           "crafterStats"
         ],
         "properties": {
@@ -546,6 +550,9 @@
               },
               "clvl": {
                 "type": "integer"
+              },
+              "specialist": {
+                "type": "boolean"
               }
             }
           }
@@ -553,9 +560,16 @@
       },
       "NewQuicksynthresult": {
         "required": [
+          "userId",
+          "success",
+          "HQ",
+          "rlvl",
           "crafterStats"
         ],
         "properties": {
+          "userId": {
+            "type": "string"
+          },
           "success": {
             "type": "boolean"
           },
@@ -585,6 +599,9 @@
               },
               "clvl": {
                 "type": "integer"
+              },
+              "specialist": {
+                "type": "boolean"
               }
             }
           }

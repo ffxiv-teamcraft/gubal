@@ -11,7 +11,8 @@
   "attributes": {
     "userId": {
       "required": true,
-      "type": "string"
+      "type": "string",
+      "private": true
     },
     "collectability": {
       "type": "integer",

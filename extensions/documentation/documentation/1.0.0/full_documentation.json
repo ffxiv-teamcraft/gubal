@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "10/12/2019 10:26:23 AM"
+    "x-generation-date": "10/12/2019 11:18:23 AM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -4266,6 +4266,10 @@
       "Quicksynthresult": {
         "required": [
           "id",
+          "userId",
+          "success",
+          "HQ",
+          "rlvl",
           "crafterStats"
         ],
         "properties": {
@@ -4301,6 +4305,9 @@
               },
               "clvl": {
                 "type": "integer"
+              },
+              "specialist": {
+                "type": "boolean"
               }
             }
           }
@@ -4308,9 +4315,16 @@
       },
       "NewQuicksynthresult": {
         "required": [
+          "userId",
+          "success",
+          "HQ",
+          "rlvl",
           "crafterStats"
         ],
         "properties": {
+          "userId": {
+            "type": "string"
+          },
           "success": {
             "type": "boolean"
           },
@@ -4340,6 +4354,9 @@
               },
               "clvl": {
                 "type": "integer"
+              },
+              "specialist": {
+                "type": "boolean"
               }
             }
           }
@@ -4355,9 +4372,6 @@
         ],
         "properties": {
           "id": {
-            "type": "string"
-          },
-          "userId": {
             "type": "string"
           },
           "collectability": {

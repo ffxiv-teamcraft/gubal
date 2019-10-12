@@ -1,22 +1,33 @@
 {
   "connection": "default",
-  "collectionName": "",
+  "collectionName": "quicksynthresult",
   "info": {
     "name": "quicksynthresult",
     "description": ""
   },
   "options": {
-    "timestamps": true
+    "timestamps": [
+      "createdAt",
+      "updatedAt"
+    ]
   },
   "attributes": {
+    "userId": {
+      "type": "string",
+      "required": true,
+      "private": true
+    },
     "success": {
-      "type": "boolean"
+      "type": "boolean",
+      "required": true
     },
     "HQ": {
-      "type": "boolean"
+      "type": "boolean",
+      "required": true
     },
     "rlvl": {
-      "type": "integer"
+      "type": "integer",
+      "required": true
     },
     "crafterStats": {
       "group": "crafter_stats",
