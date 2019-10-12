@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/quicksynthresults",
+      "handler": "Quicksynthresult.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/quicksynthresults/count",
+      "handler": "Quicksynthresult.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/quicksynthresults/:id",
+      "handler": "Quicksynthresult.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/quicksynthresults",
+      "handler": "Quicksynthresult.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/quicksynthresults/:id",
+      "handler": "Quicksynthresult.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/quicksynthresults/:id",
+      "handler": "Quicksynthresult.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

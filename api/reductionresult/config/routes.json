@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/reductionresults",
+      "handler": "Reductionresult.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/reductionresults/count",
+      "handler": "Reductionresult.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/reductionresults/:id",
+      "handler": "Reductionresult.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/reductionresults",
+      "handler": "Reductionresult.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/reductionresults/:id",
+      "handler": "Reductionresult.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/reductionresults/:id",
+      "handler": "Reductionresult.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

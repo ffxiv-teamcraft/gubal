@@ -1,0 +1,32 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "reductionresult",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "userId": {
+      "required": true,
+      "type": "string"
+    },
+    "collectability": {
+      "type": "integer",
+      "required": true
+    },
+    "resultItemId": {
+      "type": "integer",
+      "required": true
+    },
+    "resultItemQuantity": {
+      "type": "integer",
+      "required": true
+    },
+    "resultItemHQ": {
+      "type": "boolean"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "info": {
+    "name": "crafterStats",
+    "description": ""
+  },
+  "connection": "default",
+  "collectionName": "groups_crafter_stats",
+  "attributes": {
+    "craftsmanship": {
+      "type": "integer"
+    },
+    "control": {
+      "type": "integer"
+    },
+    "cp": {
+      "type": "integer"
+    },
+    "clvl": {
+      "type": "integer"
+    }
+  }
+}
