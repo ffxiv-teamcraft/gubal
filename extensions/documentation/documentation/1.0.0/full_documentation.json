@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "10/12/2019 11:18:23 AM"
+    "x-generation-date": "10/12/2019 12:16:05 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -4268,9 +4268,12 @@
           "id",
           "userId",
           "success",
-          "HQ",
           "rlvl",
-          "crafterStats"
+          "craftsmanship",
+          "control",
+          "cp",
+          "specialist",
+          "clvl"
         ],
         "properties": {
           "id": {
@@ -4285,31 +4288,20 @@
           "rlvl": {
             "type": "integer"
           },
-          "crafterStats": {
-            "type": "object",
-            "required": [
-              "id"
-            ],
-            "properties": {
-              "id": {
-                "type": "string"
-              },
-              "craftsmanship": {
-                "type": "integer"
-              },
-              "control": {
-                "type": "integer"
-              },
-              "cp": {
-                "type": "integer"
-              },
-              "clvl": {
-                "type": "integer"
-              },
-              "specialist": {
-                "type": "boolean"
-              }
-            }
+          "craftsmanship": {
+            "type": "integer"
+          },
+          "control": {
+            "type": "integer"
+          },
+          "cp": {
+            "type": "integer"
+          },
+          "specialist": {
+            "type": "boolean"
+          },
+          "clvl": {
+            "type": "integer"
           }
         }
       },
@@ -4317,9 +4309,12 @@
         "required": [
           "userId",
           "success",
-          "HQ",
           "rlvl",
-          "crafterStats"
+          "craftsmanship",
+          "control",
+          "cp",
+          "specialist",
+          "clvl"
         ],
         "properties": {
           "userId": {
@@ -4334,31 +4329,20 @@
           "rlvl": {
             "type": "integer"
           },
-          "crafterStats": {
-            "type": "object",
-            "required": [
-              "id"
-            ],
-            "properties": {
-              "id": {
-                "type": "string"
-              },
-              "craftsmanship": {
-                "type": "integer"
-              },
-              "control": {
-                "type": "integer"
-              },
-              "cp": {
-                "type": "integer"
-              },
-              "clvl": {
-                "type": "integer"
-              },
-              "specialist": {
-                "type": "boolean"
-              }
-            }
+          "craftsmanship": {
+            "type": "integer"
+          },
+          "control": {
+            "type": "integer"
+          },
+          "cp": {
+            "type": "integer"
+          },
+          "specialist": {
+            "type": "boolean"
+          },
+          "clvl": {
+            "type": "integer"
           }
         }
       },

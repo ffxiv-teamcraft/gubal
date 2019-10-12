@@ -520,9 +520,6 @@
           "id": {
             "type": "string"
           },
-          "userId": {
-            "type": "string"
-          },
           "collectability": {
             "type": "integer"
           },

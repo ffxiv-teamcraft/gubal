@@ -22,17 +22,31 @@
       "required": true
     },
     "HQ": {
-      "type": "boolean",
-      "required": true
+      "type": "boolean"
     },
     "rlvl": {
       "type": "integer",
       "required": true
     },
-    "crafterStats": {
-      "group": "crafter_stats",
-      "required": true,
-      "type": "group"
+    "craftsmanship": {
+      "type": "integer",
+      "required": true
+    },
+    "control": {
+      "type": "integer",
+      "required": true
+    },
+    "cp": {
+      "type": "integer",
+      "required": true
+    },
+    "specialist": {
+      "type": "boolean",
+      "required": true
+    },
+    "clvl": {
+      "type": "integer",
+      "required": true
     }
   }
 }

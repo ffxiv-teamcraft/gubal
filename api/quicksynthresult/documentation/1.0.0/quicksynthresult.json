@@ -513,9 +513,12 @@
           "id",
           "userId",
           "success",
-          "HQ",
           "rlvl",
-          "crafterStats"
+          "craftsmanship",
+          "control",
+          "cp",
+          "specialist",
+          "clvl"
         ],
         "properties": {
           "id": {
@@ -530,31 +533,20 @@
           "rlvl": {
             "type": "integer"
           },
-          "crafterStats": {
-            "type": "object",
-            "required": [
-              "id"
-            ],
-            "properties": {
-              "id": {
-                "type": "string"
-              },
-              "craftsmanship": {
-                "type": "integer"
-              },
-              "control": {
-                "type": "integer"
-              },
-              "cp": {
-                "type": "integer"
-              },
-              "clvl": {
-                "type": "integer"
-              },
-              "specialist": {
-                "type": "boolean"
-              }
-            }
+          "craftsmanship": {
+            "type": "integer"
+          },
+          "control": {
+            "type": "integer"
+          },
+          "cp": {
+            "type": "integer"
+          },
+          "specialist": {
+            "type": "boolean"
+          },
+          "clvl": {
+            "type": "integer"
           }
         }
       },
@@ -562,9 +554,12 @@
         "required": [
           "userId",
           "success",
-          "HQ",
           "rlvl",
-          "crafterStats"
+          "craftsmanship",
+          "control",
+          "cp",
+          "specialist",
+          "clvl"
         ],
         "properties": {
           "userId": {
@@ -579,31 +574,20 @@
           "rlvl": {
             "type": "integer"
           },
-          "crafterStats": {
-            "type": "object",
-            "required": [
-              "id"
-            ],
-            "properties": {
-              "id": {
-                "type": "string"
-              },
-              "craftsmanship": {
-                "type": "integer"
-              },
-              "control": {
-                "type": "integer"
-              },
-              "cp": {
-                "type": "integer"
-              },
-              "clvl": {
-                "type": "integer"
-              },
-              "specialist": {
-                "type": "boolean"
-              }
-            }
+          "craftsmanship": {
+            "type": "integer"
+          },
+          "control": {
+            "type": "integer"
+          },
+          "cp": {
+            "type": "integer"
+          },
+          "specialist": {
+            "type": "boolean"
+          },
+          "clvl": {
+            "type": "integer"
           }
         }
       }
