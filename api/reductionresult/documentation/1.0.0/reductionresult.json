@@ -531,6 +531,9 @@
           },
           "resultItemHQ": {
             "type": "boolean"
+          },
+          "collectability": {
+            "type": "integer"
           }
         }
       },
@@ -556,6 +559,9 @@
           },
           "resultItemHQ": {
             "type": "boolean"
+          },
+          "collectability": {
+            "type": "integer"
           }
         }
       }
