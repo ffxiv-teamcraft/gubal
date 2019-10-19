@@ -1,12 +1,15 @@
 {
   "connection": "default",
-  "collectionName": "",
+  "collectionName": "reductionresult",
   "info": {
     "name": "reductionresult",
     "description": ""
   },
   "options": {
-    "timestamps": true
+    "timestamps": [
+      "createdAt",
+      "updatedAt"
+    ]
   },
   "attributes": {
     "userId": {
@@ -14,9 +17,11 @@
       "type": "string",
       "private": true
     },
-    "collectability": {
+    "purity": {
       "type": "integer",
-      "required": true
+      "required": true,
+      "max": 8,
+      "min": 1
     },
     "resultItemId": {
       "type": "integer",

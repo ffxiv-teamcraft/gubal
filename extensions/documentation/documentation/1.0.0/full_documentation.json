@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "10/12/2019 12:16:05 PM"
+    "x-generation-date": "10/19/2019 12:28:09 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -4350,7 +4350,7 @@
         "required": [
           "id",
           "userId",
-          "collectability",
+          "purity",
           "resultItemId",
           "resultItemQuantity"
         ],
@@ -4358,7 +4358,7 @@
           "id": {
             "type": "string"
           },
-          "collectability": {
+          "purity": {
             "type": "integer"
           },
           "resultItemId": {
@@ -4375,7 +4375,7 @@
       "NewReductionresult": {
         "required": [
           "userId",
-          "collectability",
+          "purity",
           "resultItemId",
           "resultItemQuantity"
         ],
@@ -4383,7 +4383,7 @@
           "userId": {
             "type": "string"
           },
-          "collectability": {
+          "purity": {
             "type": "integer"
           },
           "resultItemId": {

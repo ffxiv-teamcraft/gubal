@@ -512,7 +512,7 @@
         "required": [
           "id",
           "userId",
-          "collectability",
+          "purity",
           "resultItemId",
           "resultItemQuantity"
         ],
@@ -520,7 +520,7 @@
           "id": {
             "type": "string"
           },
-          "collectability": {
+          "purity": {
             "type": "integer"
           },
           "resultItemId": {
@@ -537,7 +537,7 @@
       "NewReductionresult": {
         "required": [
           "userId",
-          "collectability",
+          "purity",
           "resultItemId",
           "resultItemQuantity"
         ],
@@ -545,7 +545,7 @@
           "userId": {
             "type": "string"
           },
-          "collectability": {
+          "purity": {
             "type": "integer"
           },
           "resultItemId": {
