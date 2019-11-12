@@ -514,7 +514,8 @@
           "userId",
           "purity",
           "resultItemId",
-          "resultItemQuantity"
+          "resultItemQuantity",
+          "itemId"
         ],
         "properties": {
           "id": {
@@ -534,6 +535,9 @@
           },
           "collectability": {
             "type": "integer"
+          },
+          "itemId": {
+            "type": "integer"
           }
         }
       },
@@ -542,7 +546,8 @@
           "userId",
           "purity",
           "resultItemId",
-          "resultItemQuantity"
+          "resultItemQuantity",
+          "itemId"
         ],
         "properties": {
           "userId": {
@@ -561,6 +566,9 @@
             "type": "boolean"
           },
           "collectability": {
+            "type": "integer"
+          },
+          "itemId": {
             "type": "integer"
           }
         }

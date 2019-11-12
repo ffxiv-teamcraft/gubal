@@ -36,6 +36,10 @@
     },
     "collectability": {
       "type": "integer"
+    },
+    "itemId": {
+      "type": "integer",
+      "required": true
     }
   }
 }
