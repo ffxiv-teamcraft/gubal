@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "11/19/2019 6:51:05 PM"
+    "x-generation-date": "11/19/2019 7:49:58 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -549,7 +549,7 @@
         ]
       }
     },
-    "/fishings": {
+    "/fishingresults": {
       "get": {
         "deprecated": false,
         "description": "",
@@ -561,7 +561,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Fishing"
+                    "$ref": "#/components/schemas/Fishingresult"
                   }
                 }
               }
@@ -600,7 +600,7 @@
         },
         "summary": "",
         "tags": [
-          "Fishing"
+          "Fishingresult"
         ],
         "parameters": [
           {
@@ -744,7 +744,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Fishing"
+                  "$ref": "#/components/schemas/Fishingresult"
                 }
               }
             }
@@ -782,7 +782,7 @@
         },
         "summary": "",
         "tags": [
-          "Fishing"
+          "Fishingresult"
         ],
         "requestBody": {
           "description": "",
@@ -790,14 +790,14 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/NewFishing"
+                "$ref": "#/components/schemas/NewFishingresult"
               }
             }
           }
         }
       }
     },
-    "/fishings/count": {
+    "/fishingresults/count": {
       "get": {
         "deprecated": false,
         "description": "",
@@ -849,12 +849,12 @@
         },
         "summary": "",
         "tags": [
-          "Fishing"
+          "Fishingresult"
         ],
         "parameters": []
       }
     },
-    "/fishings/{id}": {
+    "/fishingresults/{id}": {
       "get": {
         "deprecated": false,
         "description": "",
@@ -864,7 +864,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Fishing"
+                  "$ref": "#/components/schemas/Fishingresult"
                 }
               }
             }
@@ -902,7 +902,7 @@
         },
         "summary": "",
         "tags": [
-          "Fishing"
+          "Fishingresult"
         ],
         "parameters": [
           {
@@ -926,7 +926,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Fishing"
+                  "$ref": "#/components/schemas/Fishingresult"
                 }
               }
             }
@@ -964,7 +964,7 @@
         },
         "summary": "",
         "tags": [
-          "Fishing"
+          "Fishingresult"
         ],
         "requestBody": {
           "description": "",
@@ -972,7 +972,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/NewFishing"
+                "$ref": "#/components/schemas/NewFishingresult"
               }
             }
           }
@@ -1038,7 +1038,7 @@
         },
         "summary": "",
         "tags": [
-          "Fishing"
+          "Fishingresult"
         ],
         "parameters": [
           {
@@ -4182,7 +4182,7 @@
           }
         }
       },
-      "Fishing": {
+      "Fishingresult": {
         "required": [
           "id",
           "itemId",
@@ -4256,7 +4256,7 @@
           }
         }
       },
-      "NewFishing": {
+      "NewFishingresult": {
         "required": [
           "itemId",
           "mapId",
@@ -4727,7 +4727,7 @@
       "name": "Desynthresult"
     },
     {
-      "name": "Fishing"
+      "name": "Fishingresult"
     },
     {
       "name": "Quicksynthresult"
