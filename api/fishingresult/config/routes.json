@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/fishingresults",
+      "handler": "Fishingresult.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/fishingresults/count",
+      "handler": "Fishingresult.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/fishingresults/:id",
+      "handler": "Fishingresult.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/fishingresults",
+      "handler": "Fishingresult.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/fishingresults/:id",
+      "handler": "Fishingresult.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/fishingresults/:id",
+      "handler": "Fishingresult.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
