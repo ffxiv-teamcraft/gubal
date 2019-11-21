@@ -56,10 +56,6 @@
       "type": "boolean",
       "required": true
     },
-    "hookset": {
-      "type": "integer",
-      "required": true
-    },
     "spot": {
       "type": "integer",
       "required": true
@@ -75,6 +71,13 @@
     "gp": {
       "type": "integer",
       "required": true
+    },
+    "size": {
+      "type": "integer",
+      "required": true
+    },
+    "hookset": {
+      "type": "integer"
     }
   }
 }

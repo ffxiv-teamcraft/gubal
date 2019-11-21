@@ -522,11 +522,11 @@
           "snagging",
           "mooch",
           "tug",
-          "hookset",
           "spot",
           "gathering",
           "perception",
-          "gp"
+          "gp",
+          "size"
         ],
         "properties": {
           "id": {
@@ -565,9 +565,6 @@
           "tug": {
             "type": "boolean"
           },
-          "hookset": {
-            "type": "integer"
-          },
           "spot": {
             "type": "integer"
           },
@@ -578,6 +575,12 @@
             "type": "integer"
           },
           "gp": {
+            "type": "integer"
+          },
+          "size": {
+            "type": "integer"
+          },
+          "hookset": {
             "type": "integer"
           }
         }
@@ -595,11 +598,11 @@
           "snagging",
           "mooch",
           "tug",
-          "hookset",
           "spot",
           "gathering",
           "perception",
-          "gp"
+          "gp",
+          "size"
         ],
         "properties": {
           "itemId": {
@@ -635,9 +638,6 @@
           "tug": {
             "type": "boolean"
           },
-          "hookset": {
-            "type": "integer"
-          },
           "spot": {
             "type": "integer"
           },
@@ -648,6 +648,12 @@
             "type": "integer"
           },
           "gp": {
+            "type": "integer"
+          },
+          "size": {
+            "type": "integer"
+          },
+          "hookset": {
             "type": "integer"
           }
         }
